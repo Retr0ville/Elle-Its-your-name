@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.retroville.Elle" version="1.0.0"    xmlns="http://www.w3.org/ns/widgets"    xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Elle - Its your name</name>
+    <description>
+        Shortest Text-based RPG on here.. 
+	spoilers : no ads.. aaand you die at the end.. probably ):  
+    </description>
+    <author email="xclusivesam14@gmail.com" href="http://www.gorevs.com">
+        xRetro
+    </author>
+ 
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="orientation" value="default" />  
+ 
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <splash src="splash.png" />
+ 
+    <platform name="android">
+        <icon density="ldpi" src="res/icon/android/ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+    </platform>
+</widget>
